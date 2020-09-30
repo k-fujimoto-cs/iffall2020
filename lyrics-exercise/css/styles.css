@@ -1,0 +1,19 @@
+
+body {
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+img {
+    max-width: 275px;
+}
+
+div {
+    padding: 10px;
+}
+
+.info {
+    font-weight: bold;
+    color: #ccff66;
+}
