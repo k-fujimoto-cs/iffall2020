@@ -1,0 +1,25 @@
+
+
+.full-screen{
+    width: 100%;
+}
+
+.square{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+        /* OR 'contain' value which scales image proportionally to fit entirely in <img> tag*/
+    object-position: left center;
+        /*can have 2 parts, 1st is horizontal position, 2nd is vertical, can use words or nums like px or % */
+}
+
+.background-image-example{
+    background-image: url(http://wudesign.me/resources/using-images/images/shelf-cloud-wide.jpg);
+    padding: 10% 5% 45% 40%;
+    background-size: cover;
+        /*like 'object-fit: cover' for <img>*/
+    background-position: center 20%;
+        /*like oebject fit?/object-position*/
+}
+
+
