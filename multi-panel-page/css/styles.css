@@ -1,0 +1,216 @@
+
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+    /*!width: 960px;
+    !max-width: 90%;*/
+
+}
+
+section{
+    /*!width: 960px;
+    !max-width: 90%;*/
+
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.subheading{
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+#sectionone{
+    padding: 6rem auto;
+}
+
+.background-image{
+    padding: 0;
+    margin: 0;
+
+    height: 485px;
+    object-fit: cover;
+    object-position: top left;
+
+}
+
+
+div{
+    position: relative;
+}
+
+.sectionone-content{
+    /*width: 100%;*/
+    padding: 152px;
+    padding-bottom: 180px;
+    background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/170606120957-california---travel-destination---shutterstock-220315747.jpg");
+    background-size: cover;
+    background-position: center 25%;
+    color: white;
+    /*height: 485px;*/
+
+
+}
+
+
+.sectiontwo{
+    background-color: cadetblue;
+    height: 715px;
+    color: white;
+   
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 32px;
+    
+}
+
+.sectiontwo-photo{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    float: right;
+    padding-left: 42px;
+    padding-bottom: 35px;
+    padding-right: 5px;
+
+
+}
+
+.sectiontwo-content{
+    font-size: 1.15em;
+    color: white;
+    /*padding: 10px 15%; */
+    width: 965px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 20px; */
+    padding-left: 3px;
+    padding-top: 1px;
+
+}
+
+.sectiontwo-content p{
+    letter-spacing: -.0115em;
+    /*margin: 16px 0px;*/
+    margin-bottom: 16px;
+    margin-top: 0px;
+    line-height: 1.58rem;
+}
+
+/*p.top-par{
+    margin-top: 33px;
+}
+*/
+
+.column{
+    width: 965px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list{
+    width: 965px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-left: 3px;
+}
+
+
+.sectionthree{
+    background-color: #cee1e2;
+    /* #738283;
+
+    #253d3e;*/
+    color: #162425;
+    height: 688px
+}
+
+.sectionthree-content ul{
+    margin: 0px auto;
+    margin-top: 0px;
+    padding-left: 4px;
+}
+
+li > img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    padding-right: 13px;
+    padding-bottom: 24px;
+    /*display: block;*/
+}
+
+li > p{
+    font-size: 1.15rem;
+    width: 90%; 
+    padding-top: 11px;
+    margin-top: 1.45rem;
+    display: block;
+    /*width: 100px;*/
+    margin-right: .5rem;
+    letter-spacing: -.015em;
+    line-height: 1.59rem;
+}
+
+
+.list li{
+    width: 49%;
+    float: left;
+    margin-top: 0px;
+    padding-right: 7px;
+    display: block;
+
+}
+
+
+
+h3{
+    margin: 0px;
+    font-size: 1.25rem;
+    float: left;
+}
+
+.sectionfour-content p{
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 1px 125px;
+    line-height: 2.25rem;
+}
+
+.sectionfour{
+    background-color: #93a7a7;
+    padding-bottom: 6.24rem;
+    color: white;
+}
+
+.sectionfive{
+    background-color: #1d3131;
+    color: #f3f8f8;
+    margin-top: 0px;
+    padding: 38px;
+}
+
+.sectionfive-content p{
+    margin: 0px;
+    font-size: 1.15rem;
+    padding-left: 3px;
+    letter-spacing: -.015em;
+}
+
+
