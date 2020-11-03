@@ -1,0 +1,100 @@
+
+
+body{
+    max-width: 960px;
+    font-family: 'Barlow', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    font-weight: 500;
+    color: darkred;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 2rem;
+
+}
+
+section{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.teaser{
+    font-style: italic;
+}
+
+.key-sentence{
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+
+#ingredients-list{
+    border-top: solid .5px grey;
+}
+
+ul{
+    padding-left: 1.4rem;
+}
+
+ol{
+    padding-left: 1.25rem;
+    padding-right: .5rem;
+}
+
+
+section h2{
+    margin: 1rem;
+}
+
+li{
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+}
+
+#directions{
+    width: 95%;
+    border-top: solid .5px grey;
+}
+
+@media (min-width: 640px){
+    body{
+        width: 95%;
+    }
+    
+
+    h1{
+        font-size: 3rem;
+    }
+    
+    .column-grid{
+        display: flex;
+    }
+    .column-grid section{
+        width: 35%;
+
+    }
+    #directions{
+        border-top: none;
+        
+    }
+    #ingredients-list{
+        border-top: none;
+        margin-right: 10px;
+        padding-right: 5px;
+        border-right: solid .5px grey;
+    }
+
+
+}
