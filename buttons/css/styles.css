@@ -1,0 +1,407 @@
+
+
+a#btn_apple{
+    display: inline-block;
+
+    color: lightgrey;
+    font-size: 75px;
+    margin-top: 70px;
+
+}
+a#btn_apple:hover{
+    color:grey;
+    text-shadow: -1px 3px 2px rgba(150, 150, 150, 0.5);
+
+    transition: color 0.2s;
+}
+
+a#btn_facebook{
+    display:inline-block;
+
+    font-size: 45px;
+    margin-top: 90px;
+
+    color: white;
+    background-color: dodgerblue;
+
+    padding: 2px 14px 0px 18px;
+    border-radius: 50%;
+    transition: background-color 0.5s;
+}
+a#btn_facebook:hover{
+    background: linear-gradient(to bottom, #47d7ff 0%,#1e90ff 50%,#1f51dd 100%);
+
+}
+
+a#btn_instagram{
+    display: inline-block;
+    font-family: 'Cookie', cursive;
+    text-decoration: none;
+    font-size: 35px;
+    margin-top: 100px;
+    color: black;
+    
+
+
+}
+
+a#btn_instagram .hidden_btn i{
+    color: white;
+
+}
+a#btn_instagram:hover .fa-instagram{
+    background: linear-gradient(60deg, #ffe347 0%,#fc1e29 50%,#c604f7 84%,#3067e8 100%);
+    padding: 3px 5px 3px 5px;
+    border-radius: 10px;
+}
+
+
+
+a#btn_moo{
+    display: inline-block;
+    margin-top: 85px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: #00c46c;
+    font-size: 45px;
+    transition: all .4s;
+
+    padding: 5px 20px 5px 20px;
+    border-radius: 50px;
+}
+a#btn_moo:hover{
+
+    background-color: #00c46c;
+    color: white;
+}
+
+
+
+a#btn_michaelk{
+    position: relative;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    transition: all 0.4s;
+}
+
+.main{
+    display: inline-block;
+    margin-top: 80px;
+}
+
+.MK-behind{
+    position: absolute;
+    left: 20px;
+    top: 1px;
+    color: white;
+    font-size: 120px;
+    z-index: -1;
+    transition: color 0.4s;
+}
+
+.whole{
+    position: relative;
+}
+
+a#btn_michaelk:hover .MK-behind{
+    color: lightgrey;
+}
+
+
+a#btn_old-navy{
+    display: inline-block;
+    margin-top: 80px;
+    text-transform: uppercase;
+    color: navy;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    padding-top: 10px;
+
+    transition: all 0.3s;
+}
+a#btn_old-navy:hover{
+    background-color: navy;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50%;
+}
+
+a#btn_lyft{
+    display: inline-block;
+    margin-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    color: #ff00bf;
+    padding-top: 10px;
+    transition: background-color 0.4s;
+}
+a#btn_lyft:hover{
+    color: white;
+    background: linear-gradient(to bottom, #ff00bf 45%,#212121 100%);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a#btn_color-run{
+    display: inline-block;
+    margin-top: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+a#btn_color-run:hover .word-one{
+    color: 	#ff00bf;
+}
+a#btn_color-run:hover .word-two{
+    color: #f9f906;
+}
+a#btn_color-run:hover .word-three{
+    color: #00beff;
+}
+
+
+a#btn_harley-davidson{
+    display: inline-block;
+    margin-top: 75px;
+    font-family: 'Goldman', cursive;
+    text-decoration: none;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: orange;
+    transition: color 0.5s, border-bottom 0.5s;
+}
+a#btn_harley-davidson:hover{
+    color: black;
+}
+
+a#btn_harley-davidson:hover .word-one{
+    border-bottom: solid 3px orange;
+}
+
+a#btn_wizardingworld{
+    display: inline-block;
+    margin-top: 75px;
+    color: darkred;
+    text-decoration: none;
+    font-size: 50px;
+
+}
+a#btn_wizardingworld .underneath{
+    color: white;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a#btn_wizardingworld:hover{
+    color: black;
+
+} 
+a#btn_wizardingworld:hover .underneath{
+    color: black;
+} 
+
+a#btn_sardellastl{
+    display: inline-block;
+    margin-top: 75px;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: blue;
+    text-decoration: none;
+    border-bottom: double 3px #00ffef; 
+    padding: 0px 5px;
+    
+    transition: text-shadow .4s;
+}
+a#btn_sardellastl:hover{
+    text-shadow: 3px 2px 0px rgba(0, 255, 206, 0.75);
+    box-shadow: 0px 3px 1px 0px rgba(0, 20, 255, 0.75);
+}
+
+a#btn_fitbit{
+    display: inline-block;
+    margin-top: 65px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    padding: 30px 13px;
+    border-radius: 50%;
+    transition: background-color 0.7s;
+}
+a#btn_fitbit:hover{
+    color: white;
+    background-color: rgb(0, 211, 214);
+}
+
+a#btn_newyorker{
+    display: inline-block;
+    margin-top: 65px;
+    font-family: 'Rufina', serif;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+a#btn_newyorker .main{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+a#btn_newyorker:hover{
+    text-shadow: -3px 5px 5px rgba(81, 81, 81, 0.75);
+}
+
+
+a#btn_stjude{
+    display: inline-block;
+    margin-top: 85px;
+    font-family: 'Georgia', serif;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+a#btn_stjude:hover .fa-hospital{
+    color: #b20034;
+    text-shadow: -2px 2px 3px rgba(200, 5, 50, 0.75);
+}
+a#btn_stjude:hover{
+    text-shadow: -1px 1px 2px rgba(100, 100, 100, 0.75);
+}
+
+a#btn_tuckerallen{
+    display: inline-block;
+    margin-top: 100px;
+    font-family: 'Georgia', serif;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+a#btn_tuckerallen .fa-envira{
+    font-size: 30px;
+    color: linear-gradient(45deg, #62bf54 20%,#ead512 80%,#ff0000 100%);
+    transition: transform 0.6s;
+}
+a#btn_tuckerallen:hover .fa-envira{
+    transform: rotateY(180deg);
+}a#btn_tuckerallen:hover {
+    color: rgba(45, 45, 90, 1);
+}
+
+a#btn_mollyjogger{
+    display: inline-block;
+    margin-top: 85px;
+    font-family: 'Mr Dafoe', cursive;
+    color: #336600;
+    font-size: 35px;
+    text-decoration: none;
+    transition: text-shadow 0.5s;
+}
+a#btn_mollyjogger:hover{
+    text-shadow: 0px 0px 40px rgba(210, 215, 95, 1);
+}
+
+a#btn_hsn{
+    display: inline-block;
+    margin-top: 72px;
+    font-family: sans-serif;
+    color: #4770d4;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 30px 10px;
+    border-radius: 50%;
+
+    transition: color 1s;
+}
+
+a#btn_hsn:hover{
+    background-color: #4770d4;
+    color: white;
+}
+
+
+a#btn_motortrend .text{
+    padding-top: 10px;
+    margin-top: 110px;
+    display: inline-block;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a#btn_motortrend .car{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 90px;
+    color: black;
+}
+#btn_motortrend .car i{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.car .fa-fire{
+    transform: translate(-67%, 10%) rotate(-90deg) scale(0.2);
+}
+#btn_motortrend:hover .fa-fire{
+    color: #ff3300;
+    transform: translate(-80%, 10%) rotate(-90deg) scale(0.4);
+}
+
+
+#btn_motortrend:active .car{
+    transform: translate(210px, 0px) scale(1.1);
+    text-shadow: -3px 0px 2px rgba(100, 100, 100, 1);
+}
+
+a#btn_nike{
+    display: inline-block;
+    margin-top: 100px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    transition: transform 0.2s;
+}
+a#btn_nike:hover{
+    transform: translate(0px, 2px) scale(1.5);
+    color: #ff6600;
+    
+}
+
+
+a#btn_dimecitycycles{
+    display:inline-block;
+    margin-top: 100px;
+    font-size: 29px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+a#btn_dimecitycycles i{
+    color: darkred;
+    padding-right: 1px;
+}
+a#btn_dimecitycycles:hover i{
+    transform: translate(245px, 0px);
+    z-index: -1;
+}
+
+
+
+
+
+
