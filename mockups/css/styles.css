@@ -1,0 +1,25 @@
+
+
+body{
+    width: 100%;
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+img{
+    width: 100%;
+    max-width: 1920px;
+}
+
+footer{
+    font-size: .5em;
+}
+
+cite a{
+    color: darkred;
+    text-decoration: none;
+}
