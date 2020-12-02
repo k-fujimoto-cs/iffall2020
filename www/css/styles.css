@@ -1,0 +1,184 @@
+
+body{
+    background-color:#303030;
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    width: 80%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.main-style{
+    max-width: 80%;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background-color: #303030;
+}
+
+nav{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+nav ul li{
+    list-style-type: none;
+    float: left;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#home-page{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 0px;
+    margin-bottom: 2%;
+}
+
+
+
+
+.right{
+    float: right;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 22px;
+    margin-top: 1%;
+}
+.clicked a{
+    background-color: #505050;
+    padding: .5rem 1rem;
+}
+
+.mid{
+    border-left: solid 2px grey;
+}
+
+
+.main-page img{
+    width: 100%;
+
+}
+.main-page p{
+    color: white;
+    font-size: .95rem;
+    letter-spacing: .05rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div.top{
+    padding-top: 10%;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+
+}
+
+.halfsplit.left.text{
+    width: 45%;
+    color: white;
+    float: left;
+    padding-right: 20px;
+    background-color: #505050;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.halfsplit.left p{
+    letter-spacing: .05rem;
+}
+
+.halfsplit.left img{
+    width: 50%;
+    float: left;
+}
+
+.halfsplit-right img{
+    width: 50%;
+    padding-top:0px;
+
+}
+
+.halfsplit.right.text{
+    width: 45%;
+    color: white;
+    float: left;
+    padding-right: 20px;
+    background-color: #505050;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.awards-text{
+    background-color: none;
+}
+
+
+
+
+
+.restaurant-images{
+    color: white;
+}
+
+.restaurant-images img{
+    width: 50%;
+    float: left;
+    height:20rem;
+}
+
+
+/*.hover-container{
+    opacity: 0;
+    font-size: 30px;
+    position: absolute;
+    background-color: (220, 220, 220, 0.5);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.hover-container:hover{
+    opacity: 1;
+}
+
+.hover-text{
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+
+}
+*/
