@@ -2,7 +2,7 @@
 body{
     background-color:#303030;
     /*font-family: 'Oswald', sans-serif;*/
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Oswald', 'Open Sans Condensed', sans-serif;
 
     width: 80%;
     max-width: 1200px;
@@ -36,6 +36,11 @@ nav{
     display: block;
 }
 
+ul{
+    margin: 0px;
+
+}
+
 nav ul li{
     list-style-type: none;
     float: left;
@@ -51,9 +56,27 @@ li a{
 #home-page{
     font-size: 40px;
     font-weight: bold;
+    letter-spacing: .1rem;
+
     padding-left: 0px;
+    padding-top: 0px;
+    top: 0px;
+    left: 0px;
     margin-bottom: 2%;
+    margin-top: 0px;
+    margin-left: 0px;
+    
 }
+
+
+
+.img{
+    max-width: 100%;
+}
+
+
+
+
 
 
 
@@ -62,7 +85,7 @@ li a{
     float: right;
     padding-left: 2rem;
     padding-right: 2rem;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 1%;
 }
 .clicked a{
@@ -77,12 +100,14 @@ li a{
 
 .main-page img{
     width: 100%;
-
+    object-fit: cover;
+    object-position: center;
 }
 .main-page p{
     color: white;
     font-size: .95rem;
     letter-spacing: .05rem;
+    font-weight: 300;
 }
 
 
@@ -124,6 +149,7 @@ h1{
 .halfsplit.left img{
     width: 50%;
     float: left;
+    padding-top: 5%;
 }
 
 .halfsplit-right img{
@@ -137,9 +163,9 @@ h1{
     color: white;
     float: left;
     padding-right: 20px;
-    background-color: #505050;
     padding-top: 0px;
     padding-left: 20px;
+    margin-top: 0px;
 }
 
 .awards-text{
@@ -150,35 +176,139 @@ h1{
 
 
 
-.restaurant-images{
-    color: white;
+
+
+
+
+
+
+/* ------------------ RESTAURANT --------------------- */
+
+/*
+.two-column-restaurants{
+    display: flex;
+}
+.two-column-restaurants > div.restaurant-images{
+    width: 50%;
 }
 
-.restaurant-images img{
+*/
+
+
+
+
+.restaurant-images{
+    display: block;
+    position: relative;
+    color: white;
+    text-align: center;
     width: 50%;
     float: left;
-    height:20rem;
+
 }
 
-
-/*.hover-container{
-    opacity: 0;
-    font-size: 30px;
-    position: absolute;
-    background-color: (220, 220, 220, 0.5);
-    color: white;
-    text-align: center;
-    z-index: 1;
-}
-
-.hover-container:hover{
-    opacity: 1;
-}
-
-.hover-text{
-    opacity: 0;
+.info{
     position: absolute;
     text-align: center;
+    width: 50%;
+}
 
+
+
+.restaurant-images img{
+    opacity: .7;
+}
+
+.restaurant-images:hover img{
+    opacity: .2;
+}
+
+
+
+/*
+.info h2{
+    position: absolute;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+.info h3{
+    position: absolute;
+    font-family: 'Oswald', serif;
+    font-weight: 300;
 }
 */
+
+/*
+.reveal h3{
+    position: absolute;
+    background: grey;
+    background: rgba(50, 50, 50, 0.7);
+    color: #f1f1f1;
+    width: 100%;
+    transition: 0.5s;
+    opacity: 0;
+    color: white;
+    
+    padding: 20px;
+    text-align: center;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+*/
+
+
+
+ul.container{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    display: block;
+}
+.container li{
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------ FILMOGRAPHY / TV ----------------  */
+
+
+
+
+ul.tvs-list{
+    list-style-type: none;
+    color: white;
+}
+
+img.left-pic{
+    width: 40%;
+    float: left;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.tvs-list li{
+    display: flex;
+    height: 25%;
+}
+
+.right-info{
+    margin-left: 50px;
+}
+.right-info h2>div{
+    font-weight: 300;
+}
+
+
