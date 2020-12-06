@@ -34,24 +34,55 @@ nav{
     margin-right: auto;
     margin-left: auto;
     display: block;
+    z-index: 10;
 }
-
-ul{
-    margin: 0px;
-
+.right-nav{
+    float: right;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 20px;
+    margin-top: 1%;
 }
-
+.clicked a{
+    background-color: #505050;
+    padding: .5rem 1rem;
+    color: white;
+}
+.mid{
+    border-left: solid 2px grey;
+}
 nav ul li{
     list-style-type: none;
     float: left;
 }
-
 li a{
-    color: white;
+    color: grey;
     text-decoration: none;
 }
+#home-page a{
+    color: white;
+}
+
+li a:hover{
+    color: white;
+}
+
+    @media (min-width: 800px){
+        <i class="fas fa-bars"></i>
+    }
 
 
+
+
+
+
+
+
+
+ul{
+    margin: 0px;
+    margin-top: 10px;
+}
 
 #home-page{
     font-size: 40px;
@@ -79,25 +110,6 @@ li a{
 
 
 
-
-
-.right{
-    float: right;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 20px;
-    margin-top: 1%;
-}
-.clicked a{
-    background-color: #505050;
-    padding: .5rem 1rem;
-}
-
-.mid{
-    border-left: solid 2px grey;
-}
-
-
 .main-page img{
     width: 100%;
     object-fit: cover;
@@ -114,16 +126,14 @@ li a{
 
 
 
-
-
-
-
-
-
-
 div.top{
     padding-top: 10%;
 }
+
+
+
+
+
 
 
 h1{
@@ -132,46 +142,75 @@ h1{
 
 }
 
-.halfsplit.left.text{
-    width: 45%;
-    color: white;
-    float: left;
-    padding-right: 20px;
-    background-color: #505050;
-    padding-top: 0px;
-    padding-left: 20px;
+
+.halfsplit{
+    width: 50%;
 }
 
-.halfsplit.left p{
-    letter-spacing: .05rem;
+
+.halfsplit.left{
+    width: 50%;
+    float: left;
+    position: relative;
+    display: block;
+}
+.halfsplit.right{
+    width: 50%;
+    position: relative;
+    display: block;
+
+}    
+
+
+
+.halfsplit.left.text{
+    color: white;
+    padding-right: 25px;
+    background-color: #505050;
+    padding-top: 10px;
+    padding-left: 25px;
+    width: 45%;
+    padding-bottom: 10px;
+}
+
+.halfsplit p{
+    letter-spacing: .06rem;
+    font-weight: 300;
 }
 
 .halfsplit.left img{
-    width: 50%;
-    float: left;
-    padding-top: 5%;
+    width: 100%;
+    padding: 0px;
+    padding-top: 0%;
+    
 }
 
-.halfsplit-right img{
-    width: 50%;
+.halfsplit.right img{
+    width: 100%;
     padding-top:0px;
 
 }
 
+
 .halfsplit.right.text{
-    width: 45%;
+    width: 46%;
     color: white;
-    float: left;
-    padding-right: 20px;
     padding-top: 0px;
-    padding-left: 20px;
+    padding-left: 30px;
     margin-top: 0px;
 }
+
+
+
 
 .awards-text{
     background-color: none;
 }
 
+/*----------------- COOKING CAREER ---------------*/
+.cooking-career-pic{
+    width: 100%;
+}
 
 
 
@@ -184,73 +223,129 @@ h1{
 
 /* ------------------ RESTAURANT --------------------- */
 
-.two-column-restaurants{
+
+.two-column-width{
     display: flex;
+    flex-wrap: wrap;
 }
-.two-column-restaurants > div.restaurant-images{
+.two-column-width> div.restaurant-images{
     width: 50%;
+    position: relative;
 }
 
-.info{
+
+.stars{
     position: absolute;
+    right: 3px;
+    top: 3px;
+    z-index: 1;
+}
+.stars i{
+    padding-right: 5px;
+    font-size: 20px;
 }
 
-/*
 .restaurant-images{
     display: block;
     position: relative;
     color: white;
     text-align: center;
-
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
 
 }
-
-/*
-.info h2{
+.info{
     position: absolute;
-    font-family: 'PT Serif', serif;
-    font-weight: 400;
-    font-size: 22px;
+    text-align: center;
+    width: 100%;
 }
-.info h3{
-    position: absolute;
-    font-family: 'Oswald', serif;
-    font-weight: 300;
-}
-*/
 
 .restaurant-images img{
-    opacity: .8;
+    opacity: .7;
+    width: 100%;
+    float: left;
 }
 
 
 
-.restaurant-images:hover .info{
+.info h2{
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 20px;
+    margin-bottom: 8px;
+    
+}
+.info h3{
+    font-family: 'Oswald', serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: .1rem;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.reveal h3:first-child{
+    position: absolute;
+      /*  
+    background: grey;
+    background: rgba(50, 50, 50, 0.7);
+    */
+    font-family: 'Oswald', serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    color: #f1f1f1;
+    width: 100%;
+    transition: 0.8s;
+    opacity: 0;
+    color: white;
+    padding: 5px;
+    text-align: center;
+
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.reveal h3{
+    position: absolute;
+    font-family: 'Oswald', serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    color: #f1f1f1;
+    width: 100%;
+    transition: 0.8s;
+    opacity: 0;
+    color: white;
+    padding: 5px;
+    text-align: center;
+
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+
+.restaurant-images:hover img{
+    opacity: .2;
+}
+
+.restaurant-images:hover .reveal h3{
     opacity: 1;
 }
 
+
+
+
 /*
-.reveal h3{
-    position: absolute;
-    background: grey;
-    background: rgba(50, 50, 50, 0.7);
-    color: #f1f1f1;
-    width: 100%;
-    transition: 0.5s;
-    opacity: 0;
-    color: white;
-    
-    padding: 20px;
-    text-align: center;
-
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
-}
-*/
-
-
 
 ul.container{
     display: flex;
@@ -262,3 +357,53 @@ ul.container{
 .container li{
     width: 40%;
 }
+*/
+
+
+
+
+
+
+
+/* ------------------ FILMOGRAPHY / TV ----------------  */
+
+
+
+
+ul.tvs-list{
+    list-style-type: none;
+    color: white;
+    margin-top: 50px;
+}
+
+img.left-pic{
+    width: 300px;
+    float: left;
+    margin-right: 25px;
+
+}
+
+.tvs-list li{
+    display: flex;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #505050;
+}
+
+.dates{
+    font-weight: 200px;
+    font-style: italic;
+}
+.right-info{
+    margin-left: 25px;
+}
+
+.right-info h2{
+    margin-top: 0px;
+    font-size: 26px;
+}
+
+.right-info div{
+    font-weight: 200;
+}
+

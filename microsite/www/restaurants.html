@@ -10,6 +10,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
+        <script src="https://kit.fontawesome.com/fd7ea39515.js" crossorigin="anonymous"></script>
+
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -29,16 +31,16 @@
                     <li id="home-page">
                         <a href="index.html">GORDON RAMSAY</a>
                     </li>
-                    <li class="right mid">
+                    <li class="right-nav mid">
                         <a href="awards.html">Awards</a>
                     </li>
-                    <li class="right mid">
+                    <li class="right-nav mid">
                         <a href="cooking-career.html">Cooking Career</a>
                     </li>
-                    <li class="right mid clicked">
+                    <li class="right-nav mid clicked">
                         <a href="restaurants.html">Restaurants</a>
                     </li>
-                    <li class="right">
+                    <li class="right-nav">
                         <a href="film-TV.html">Filmography/TV</a>
                     </li>
                 </ul>
@@ -50,12 +52,13 @@
 
 
 
-        <div>
+        <div class="top">
             <h1>Resturaunts</h1>
         </div>
 
 
         
+        <!--
         <div class="top">
             <ul class="container">
                 <li>
@@ -70,12 +73,8 @@
                 </li>
 
             </ul>
-
-
-
-
-
-        </div>
+        </div>        
+        -->
 
 
 
@@ -84,14 +83,22 @@
 
 
 
-        <div class="top two-column-restaurants">
+        <div class="two-column-width">
             <div class="restaurant-images">
                 <img src="GordonRamsay_AuTrianon-widescreen.jpeg" alt="Gordon Ramsay Au Trianon">
                 
+                <div class="stars">
+                    <i class="fas fa-certificate"></i>
+                </div>
                 <div class="info">
                     <h2>Au Trainon</h2>
                     <h3>Vesailles, France</h3>
                 </div>
+                <div class="reveal"> 
+                    <h3>opened: March 2008</h3>
+                    <h3><i class="fas fa-certificate"></i>1 michilen star</h3>
+                </div>
+
             </div>
 
             <div class="restaurant-images">
@@ -99,20 +106,57 @@
 
                 <div class="info CastelMonstero">
                     <h2 class="rest-name">Gordon Ramsay at Castel Monastero</h2>
-                    <h3 class="rest-place">Siena, Tuscany, Italy</h3>
+                    <h3 class="rest-place">Siena, Tuscany</h3>
+                </div>
+                <div class="reveal"> 
+                    <h3>opened: July 1, 2009</h3>
                 </div>
 
             </div>
-
+            
+            <div class="restaurant-images">
+                <div class="stars">
+                    <i class="fas fa-certificate"></i>
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <img src="Le-Pressoir-dArgent-wide.jpg" alt="Le Pessoir d' Argent in London, England">
+                <div class="info">
+                    <h2 class="rest-name">Le Pessoir d'Argent</h2>
+                    <h3 class="rest-place">Bordeaux, France</h3>
+                </div>
+                <div class="reveal"> 
+                    <h3>opened: September 25, 2015</h3>
+                    <h3><i class="fas fa-certificate"></i><i class="fas fa-certificate"></i> 2 michilen stars</h3>
+                </div>
+            </div>
 
             <div class="restaurant-images">
-                <img src="MazeGrill-MayfairLondon.jpg" alt="Mazegrill in London, England">
-                <div class="info"> 
-                    <h2>Mazegrill</h2>
-                    <h3>London, England</h3>
+                <div class="stars">
+                    <i class="fas fa-certificate"></i>
                 </div>
-
+                <img src="Petrus_byGordonRamsay.jpg" alt="Interior of Petrus, in London, England">
+                <div class="info">
+                    <h2 class="rest-name">Pétrus, by Gordon Ramsay</h2>
+                    <h3 class="rest-place">Belgravia, London</h3>
+                </div>
+                <div class="reveal"> 
+                    <h3>opened: March 29, 1999</h3>
+                    <h3>1 michilen star</h3>
+                </div>
             </div>
+
+            <div class="restaurant-images">
+                <img src="TheNarrow.jpg" alt="Interior of The Narrow, in London">
+                <div class="info">
+                    <h2 class="rest-name">The Narrow</h2>
+                    <h3 class="rest-place">Limehouse, London</h3>
+                </div>
+                <div class="reveal"> 
+                    <h3>opened: March 26, 2007</h3>
+                </div>
+            </div>
+
+
 
             <div class="restaurant-images ">
                 <img src="BreadStreetKitchen_MarinaBaySands-Singapore-wide.jpg" alt="Breat Street Kitchen in Marina Bay Sands, Singapore">
@@ -121,20 +165,21 @@
                     <h3 class="rest-place">Marina Bay Sands, Singapore</h3>
                 </div>
                 <div class="reveal"> 
-                    <h3> opened:</h3>
+                    <h3>opened: June 23, 2015</h3>
                 </div>
             </div>
 
             <div class="restaurant-images">
-                <img src="Le-Pressoir-dArgent-wide.jpg" alt="Le Pessoir d' Argent in London, England">
-                <div class="info">
-                    <h2 class="rest-name">Bread Street Kitchen</h2>
-                    <h3 class="rest-place"></h3>
+                <img src="Mazegrill-RHR.jpg" alt="Interior of Mazegrill Royal Hospital Road">
+                <div class="info"> 
+                    <h2>Maze Grill Royal Hospital Road</h2>
+                    <h3>London, England</h3>
                 </div>
                 <div class="reveal"> 
-                    <h3> opened:</h3>
+                    <h3>opened: January 21, 2008</h3>
                 </div>
             </div>
+
 
             <div class="restaurant-images">
                 <img src="GordonRamsay_Steak-Baltimore.jpg" alt="Gordon Ramsay Steak in Baltimore, Maryland">
@@ -143,19 +188,21 @@
                     <h3 class="rest-place">Baltimore, Maryland</h3>
                 </div>
                 <div class="reveal"> 
-                    <h3> opened:</h3>
+                    <h3>opened: November 28, 2017</h3>
                 </div>
-
             </div>
 
             <div class="restaurant-images">
                 <img src="GordonRamsay_HellsKitchen-CesarsPalace.jpg" alt="Gordon Ramsay Hell's Kitchen">
                 <div class="info">
                     <h2 class="rest-name">Gordon Ramsay Hell's Kitchen</h2>
-                    <h3 class="rest-place">Cesar's Palace, Las Vegas, Nevada</h3>
+                    <h3 class="rest-place">Caesar's Palace, Las Vegas, Nevada</h3>
                 </div>
-
+                <div class="reveal"> 
+                    <h3>opened: January 26, 2018</h3>
+                </div>
             </div>
+
 
         </div>
 
