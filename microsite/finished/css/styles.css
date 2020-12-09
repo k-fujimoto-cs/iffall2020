@@ -1,0 +1,547 @@
+
+body{
+    background-color:#303030;
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: 'Oswald', 'Open Sans Condensed', sans-serif;
+
+    width: 80%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.main-style{
+    max-width: 80%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background-color: #303030;
+    z-index: 10;
+}
+
+nav{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    z-index: 10;
+}
+ul.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-home{
+    order: 1;
+}
+.nav-buttons{
+    order: 2;
+}
+
+.right-nav{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+    font-size: 22px;
+}
+.clicked a{
+    background-color: #505050;
+    padding: 5px 7px;
+    color: white;
+}
+.mid{
+    border-right: solid 2px grey;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a{
+    color: grey;
+    text-decoration: none;
+}
+#home-page a{
+    color: white;
+    padding-top: 10px;
+}
+
+li a:hover{
+    color: white;
+}
+
+    @media (max-width: 1050px){
+        li#home-page a{
+            font-size: 28px;
+        }
+        nav ul a{
+            font-size: 18px;
+            padding: 0px;
+        }
+
+    }
+
+    @media (max-width: 900px){
+        .right-nav{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        #home-page a{
+            font-size: 30px;
+        }
+        nav ul a{
+            font-size: 15px;
+            padding: 0px;
+        }
+        h1{
+            font-size: 28px;
+        }
+        .top{
+            margin-top: 50px;
+        }
+    }
+
+
+
+    @media (max-width: 800px){
+        ul.navbar{
+            display: block;
+        }
+        h1{
+            font-size: 26px;
+        }
+        h2{
+            font-size: 22px;
+        }
+        .top{
+            margin-top: 75px;
+        }
+    }
+    
+    @media (max-width: 500px){
+        .main-page img{
+            margin-top: 50px;
+        }
+    }
+
+
+
+
+
+ul{
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+#home-page{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: .1rem;
+
+    padding-left: 0px;
+    padding-top: 0px;
+    top: 0px;
+    left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    
+}
+
+.img{
+    max-width: 100%;
+}
+
+.main-page img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: inline-block;
+}
+.main-page p{
+    color: white;
+    font-size: .95rem;
+    letter-spacing: .05rem;
+    font-weight: 300;
+}
+
+div.top{
+    padding-top: 10%;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+
+}
+
+
+
+
+.halfsplit{
+    width: 50%;
+}
+.halfsplit.left{
+    position: relative;
+    display: block;
+}
+.halfsplit.right{
+    position: relative;
+    display: block;
+}    
+
+.halfsplit.left.text{
+    color: white;
+    box-sizing: border-box;
+    padding-right: 20px;
+    background-color: #505050;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.halfsplit p{
+    letter-spacing: .06rem;
+    font-weight: 300;
+}
+
+.halfsplit.left img{
+    width: 100%;
+    padding: 0px;
+    padding-top: 10px;
+}
+
+.halfsplit.right img{
+    width: 100%;
+    padding-top:0px;
+}
+
+.halfsplit.right.text{
+    width: 46%;
+    color: white;
+    padding-top: 0px;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+@media (max-width: 800px){
+    .halfsplit p{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+.awards-text p:first-child {
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+
+
+.awards-text{
+    background-color: none;
+}
+
+/*----------------- COOKING CAREER ---------------*/
+.cooking-career-pic{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------ RESTAURANT --------------------- */
+
+
+.two-column-width{
+    display: flex;
+    flex-wrap: wrap;
+}
+.two-column-width> div.restaurant-images{
+    width: 50%;
+    position: relative;
+}
+.note{
+    color: grey;
+    padding-bottom: 5px;
+}
+
+.stars{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    z-index: 1;
+}
+.stars i{
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.restaurant-images{
+    position: relative;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.restaurant-images img{
+    opacity: .7;
+    width: 100%;
+}
+.info h2{
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 20px;
+    margin-bottom: 8px;
+    
+}
+.info h3{
+    font-family: 'Oswald', serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: .1rem;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.reveal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.reveal h3:first-child{
+    position: absolute;
+    font-family: 'Oswald', serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    color: #f1f1f1;
+    width: 100%;
+    transition: 0.9s;
+    opacity: 0;
+    color: white;
+    padding: 5px;
+
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.reveal h3{
+    position: absolute;
+    font-family: 'Oswald', serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    color: #f1f1f1;
+    width: 100%;
+    transition: 0.9s;
+    opacity: 0;
+    color: white;
+    padding: 5px;
+    margin-top: 0px;
+    top: 80%;
+    display: block;
+}
+
+@media (max-width: 800px){
+    .info h2{
+        font-size: 18px;
+        padding-top: 0px;
+    }
+    .info h3{
+        font-size: 14px;
+    }
+    .stars i{
+        font-size: 15px;
+    }
+    .reveal h3:first-child{
+        font-size: 10px;
+        bottom: 12px;
+    }
+    .reveal h3{
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 500px){
+
+    .two-column-width > div.restaurant-images{
+        float: none;
+        width: 100%;
+    }
+
+}
+
+
+.restaurant-images:hover img{
+    opacity: .2;
+}
+
+.restaurant-images:hover .reveal h3{
+    opacity: 1;
+}
+
+
+
+
+/*
+
+ul.container{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    display: block;
+}
+.container li{
+    width: 40%;
+}
+*/
+
+
+
+
+
+
+
+/* ------------------ FILMOGRAPHY / TV ----------------  */
+
+
+ul.film-list{
+    list-style-type: none;
+    color: white;
+    margin-top: 50px;
+}
+img.left-pic{
+    width: 300px;
+    float: left;
+    margin-right: 25px;
+}
+
+.film-list li{
+    display: flex;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #505050;
+}
+.film-list li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul.tvs-list{
+    list-style-type: none;
+    color: white;
+    margin-top: 50px;
+}
+
+img.left-pic{
+    width: 300px;
+    float: left;
+    margin-right: 25px;
+
+}
+
+.tvs-list li{
+    display: flex;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #505050;
+}
+
+.dates{
+    font-weight: 200px;
+    font-style: italic;
+}
+.right-info{
+    margin-left: 25px;
+}
+
+.right-info h2{
+    margin-top: 0px;
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.right-info div{
+    font-weight: 200;
+}
+ .tvs-list li a{
+     color: white;
+     text-decoration: none;
+ }
+
+ .cite{
+
+ }
+ 
+    @media (max-width: 800px){
+        img.left-pic{
+            width: 150px;
+        }
+    }
+
+
+
+.sources h1{
+    text-align: left;
+    font-weight: 500;
+}
+
+
+.sources a{
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin: 10px;
+}
+.sources a:hover{
+    color: white;
+}
+footer a{
+    color: #909090;
+    text-decoration: none;
+}
+footer a:hover{
+    color: white;
+}
+
+.sources h2{
+    color: white;
+    font-size: 20px;
+}
